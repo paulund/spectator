@@ -1,13 +1,13 @@
 openapi: 3.0.0
 info:
-  title: Test.v1
+  title: Test.v3
   version: '1.0'
 servers:
   - url: 'http://localhost:3000'
 paths:
   /cars/electric:
     patch:
-      summary: Update Tesla charging status
+      summary: Update car charging status
       tags: []
       requestBody:
         content:
